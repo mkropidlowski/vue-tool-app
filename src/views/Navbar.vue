@@ -5,11 +5,11 @@
         </div>
         <ul class="menu">
             <li v-for="link in menuLinks" :key="link" class="linksList">
-                <a :href="link.path" class="link">
+                <router-link :to="link.path" class="link">
                     <button class="linkButton">
                         <span class="btnText">{{ link.text }}</span>
                     </button>
-                </a>
+                </router-link>
             </li>
         </ul>
     </nav>
