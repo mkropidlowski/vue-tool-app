@@ -1,29 +1,18 @@
-# tool-list-manager
+# TOOL LIST MANAGER
 
-This template should help get you started developing with Vue 3 in Vite.
+Project in the phase of creating and adding new functionalities.
+The principle of operation is simple, the user (employee of the company) setting the CNC machine will be able to go to the website to check what program number he uses to process elements, then check by number (drawing, client, program number) the available list of tools so that he can easily select the right tools and holders , which will save him time when assembling the tools.
 
-## Recommended IDE Setup
+## TRELLO - for managing progress and scheduling tasks.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## Project Setup - DOWNLOAD REPOSITORY
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+and...
 
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
