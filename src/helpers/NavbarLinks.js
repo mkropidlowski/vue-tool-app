@@ -1,6 +1,6 @@
 export const links = {
     add: {
-        path: "/add-New-List",
+        path: "/add-new-list",
         text: "DODAJ NOWĄ LISTĘ",
     },
     base: {
