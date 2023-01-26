@@ -5,7 +5,7 @@
         </div>
         <ul class="menu">
             <li v-for="link in menuLinks" :key="link" class="linksList">
-                <router-link :to="link.path" class="link">
+                <router-link :to="{ path: link.path }" class="link">
                     <button class="linkButton">
                         <span class="btnText">{{ link.text }}</span>
                     </button>

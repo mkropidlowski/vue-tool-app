@@ -6,18 +6,23 @@ const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes: [
         {
+            path: "/",
+            name: "NavBar",
+            component: NavBar,
+        },
+        {
             path: "/add-new-list",
-            name: "DODAJ NOWĄ LISTĘ",
+            name: "add-new-list",
             component: "",
         },
         {
             path: "/base",
-            name: "BAZA NARZĘDZI",
+            name: "base",
             component: ToolContainer,
         },
         {
             path: "/how-to-use",
-            name: "JAK UŻYWAĆ?",
+            name: "how-to-use",
             component: "",
         },
     ],
